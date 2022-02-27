@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.image img{
+
+   
+	height: 500px;
+	width: 100%;
+    display:flex;
+	background-size: cover;
+    background-position: top;
+	
+	
+}
+
+.heading{
+
+     position:absolute;
+    top:150px;
+    left:200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:50px;
+    color:white;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    position:absolute;
+    top:400px;
+    left:48vw;
+}
+
+.logo img{
+    border-radius:88px;
+}
+
+.logo h2{
+   padding-left:25px;
+}
+.logo p{
+    font-size:20px;
+    color:#42b4d6;
+    padding-left:7px;
+}
+
+.logo p:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin-top:170px;
+}
+
+.gallery{
+    display:block;
+    width:500px;
+    margin:auto;
+  
+}
+ .gallery img{
+    display:block;
+    width:250px;
+    margin:auto;
+} 
+
+ul{
+    color:rgb(0,0,0,0.25);
+}
+ul li{
+    font-family:'Roboto Slab';
+    font-size:36px;
+    font-weight: bold;
+    color:rgb(51,51,51);
+}
+
+#box-1{
+ 
+    margin:5px 5px;
+    border-radius:10px;
+
+}
+
+#box-1 img{
+    height:500px;
+    width:500px;
+    margin:20px 10px;
+
+}
+
+#box-1 p{
+    font-family: 'Source Sans Pro', Times, serif;
+    font-size: 18px;
+    line-height:32px;
+    color:rgb(51,51,51);
+}
+
+#box-2{
+  
+    margin:5px 5px;
+    border-radius:10px;
+   
+}
+
+#box-2 img{
+    height:500px;
+    width:500px;
+    margin:20px 10px;
+
+}
+
+#box-2 p{
+    font-family: 'Source Sans Pro', Times, serif;
+    font-size: 18px;
+    line-height:32px;
+    color:rgb(51,51,51);
+
+}
+
+#box-3{
+    /* border:2px solid black; */
+    margin:5px 5px; 
+    border-radius:10px;
+
+}
+
+#box-3 img{
+    height:500px;
+    width:500px;
+    margin:20px 10px;
+}
+
+#box-3 p{
+    font-family: 'Source Sans Pro', Times, serif;
+    font-size: 18px;
+    line-height:32px;
+    color:rgb(51,51,51);
+}
+
+#box-4{
+    /* border:2px solid black; */
+    margin:5px 5px;
+    border-radius:10px;
+
+}
+
+#box-4 img{
+    height:500px;
+    width:500px;
+    margin:20px 10px;
+
+    
+}
+
+#box-4 p{
+    font-family: 'Source Sans Pro', Times, serif;
+    font-size: 18px;
+    line-height:32px;
+    color:rgb(51,51,51);
+}
+
+@media only screen and (max-width:1510px)
+{
+     .gallery{
+         display:flex;
+         flex-direction: column;
+     }
+}
